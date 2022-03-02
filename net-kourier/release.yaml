@@ -294,7 +294,7 @@ spec:
         app: net-kourier-controller
     spec:
       containers:
-        - image: gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier@sha256:d10a5b94d1d9f59156493cc13ec710b4354c43b0aba71d7d57a43bc33024a715
+        - image: yf.registry.965432.com/knative-releases/knative.dev/net-kourier/cmd/kourier:v1.1.0
           name: controller
           env:
             - name: CERTS_SECRET_NAMESPACE
